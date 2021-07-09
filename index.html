@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content=""/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="assets/css/style.css">
+<title>MarkView</title>
+</head>
+
+<body>
+    <div class="navigationbar" style="padding-right: 0;">
+        <div class="text">
+            <h4>MarkView | Markdown Viewer</h4>
+        </div>
+    </div>
+    <br>
+    <div class="container-fluid">
+        <div class="row"  style="margin: auto;">
+            <div class="col-md-6">
+                <div style="width:100%;" class="card">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h3>Editor</h3>
+                        </div>
+                        <textarea name="" class="form-control" style="height: 71vh;" id="editor" cols="30" rows="10"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div style="width:100%;" class="card">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h3>Preview</h3>
+                        </div>
+                        <div  class="form-control disabled" style="height: 71vh; overflow:auto;" id="preview"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="navigationbar" style="padding-right: 0;">
+            <p style="font-size: smaller; text-align: center;" > Made with <span style="color: orange;">❤</span>  by <a href="https://github.com/saswatsamal" style="color: aliceblue; text-decoration: none">Saswat Samal</a></p>
+    </div>
+
+
+<script src="assets/js/script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
+</body>
+</html>

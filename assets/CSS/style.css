@@ -1,0 +1,53 @@
+
+@font-face {
+    font-family: 'Phantom Sans';
+    src: url('https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Bold.woff')
+        format('woff'),
+      url('https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Bold.woff2')
+        format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+body {
+    margin: 0;
+    background: #121217;
+    font-family: Phantom Sans;
+}
+
+.navigationbar{
+    padding:15px;
+    color:#FFF;
+    width: 100%;
+    background:#212529;
+}
+.navigationbar > .text{
+    margin:auto;
+    text-align: center;
+}
+
+  .brand-title {
+  margin-top: 10px;
+  font-weight: 900;
+  font-size: 1.8rem;
+  color: #ffffff;
+  letter-spacing: 1px;
+  }
+  
+  .brand-title-small {
+    font-weight: 90;
+    font-size: 15px;
+    color: #ffffff;
+    letter-spacing: 1px;
+  }
+  .inputs {
+  text-align: left;
+  margin-top: 30px;
+  }
+
+
+  .card-body{
+      background-color: #121217 !important;
+      border: #121217 !important;
+      color: #ffffff;
+  }
