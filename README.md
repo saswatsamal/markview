@@ -4,7 +4,7 @@
 
 <hr>
 
-<p align="center"><a href="https://markview.netlify.app/"/><img src="https://img.shields.io/badge/Visit-Mo%20Tika-orange?style=for-the-badge&logo=google-chrome" /></p>
+<p align="center"><a href="https://markview.netlify.app/"/><img src="https://img.shields.io/badge/Visit-markView-orange?style=for-the-badge&logo=google-chrome" /></p>
 
 <p align="center">
 <img src="https://img.shields.io/github/languages/top/saswatsamal/markview?style=for-the-badge" />
