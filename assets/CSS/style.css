@@ -26,6 +26,17 @@ body {
     text-align: center;
 }
 
+.logo {
+    padding-right: 8px;
+    padding-bottom: 5px;
+}
+
+.info {
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#fff;
+}
+
   .brand-title {
   margin-top: 10px;
   font-weight: 900;
