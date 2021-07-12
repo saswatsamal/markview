@@ -1,14 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600&display=swap');
 
-@font-face {
-    font-family: 'Phantom Sans';
-    src: url('https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Bold.woff')
-        format('woff'),
-      url('https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Bold.woff2')
-        format('woff2');
-    font-weight: bold;
+body {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
     font-style: normal;
     font-display: swap;
   }
+
 body {
     margin: 0;
     background: #121217;
@@ -32,33 +30,113 @@ body {
 }
 
 .info {
+
     margin-bottom: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
     color:#fff;
 }
 
-  .brand-title {
-  margin-top: 10px;
-  font-weight: 900;
-  font-size: 1.8rem;
-  color: #ffffff;
-  letter-spacing: 1px;
-  }
+.brand-title {
+    margin-top: 10px;
+    font-weight: 900;
+    font-size: 1.8rem;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
   
-  .brand-title-small {
+.brand-title-small {
     font-weight: 90;
     font-size: 15px;
     color: #ffffff;
     letter-spacing: 1px;
+}
+
+.inputs {
+    text-align: left;
+    margin-top: 30px;
+}
+
+.card-body{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+
+    color: #1c1c1c;
+    flex: 1;
+    background-color: #e8e8e4;
+    text-align: justify;
+
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.card-title{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    font-size:larger ;
+}
+
+.nav-logo{
+    width: 50px;
+    height: auto;
+}
+
+/*---------footer start---------*/
+.footer
+{
+    display: block;
+    flex-flow: row wrap;
+    padding: 30px;
+    margin-top: 30px;
+    background-color: #212529;
+    text-align: center;
+    
+}
+.credtxt
+{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    font-size: 15px;
+    color: #fff;
+}
+
+footer .credsocials
+{
+    margin-top: 15px;
+    font-size: 20px;
+    position: relative;
+    
+    align-items: center;
+    word-spacing: 10px;
+}
+/*---------footer end---------*/
+
+/*---------scroll bar start---------*/
+::-webkit-scrollbar {
+    width: 10px;
   }
-  .inputs {
-  text-align: left;
-  margin-top: 30px;
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #121217;
   }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #898989;
+    border-radius: 2px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #696969;
+  }
+/*---------scroll bar end---------*/
 
 
-  .card-body{
-      background-color: #121217 !important;
-      border: #121217 !important;
-      color: #ffffff;
-  }
+/*---------Ion Icon--------*/
+ion-icon{
+    color: #fff;
+    font-size: 30px;
+}

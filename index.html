@@ -4,43 +4,47 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
 <meta name="Description" content="markView is a online Markdown Previewer where you can see the preview of your markdown side by side."/>
-<link rel="shortcut icon" href="./assets/IMG/logo-white.png" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 <title>MarkView</title>
 </head>
 
-<body>
+<body>    
     <div class="navigationbar" style="padding-right: 0;">
         <div class="text">
-            <h4 style="font-size: 40px !important;"><img src="https://img.icons8.com/ios-filled/40/FFFFFF/markdown.png" class="logo">View</h4>
+            <img src="/assets/IMG/logo-white.png" class="nav-logo" alt="logo">
         </div>
     </div>
     <br>
     <!-- Editor and Preview Body -->
     <center class="info">
-        <span>Don't know what's <i>Markdown</i>? We got you covered. Learn <a href="https://guides.github.com/features/mastering-markdown/">here</a></span>
+        <span>Don't know what <i>Markdown</i> is? Learn <a href="https://guides.github.com/features/mastering-markdown/" target="_blank">here</a>.</span>
     </center>
     <div class="container-fluid">
         <div class="row"  style="margin: auto;">
-            <div class="col-md-6">
-                <div style="width:100%;" class="card">
+            <div class="col-md-6" style="margin-bottom:25px;">
+                <div class="sec-card" style="width:100%;">
                     <div class="card-body">
                         <div class="card-title">
-                            <h3>Editor</h3>
+                            Editor
                         </div>
-                        <textarea name="" class="form-control" style="height: 71vh;" id="editor" cols="30" rows="10"></textarea>
+                        <textarea placeholder="Your markdown goes here!" class="form-control" style="height: 68vh;" id="editor" cols="30" rows="10"></textarea>
                     </div>
                 </div>
             </div>
+
+            <p class="a"></p>
+
             <div class="col-md-6">
-                <div style="width:100%;" class="card">
+                <div>
                     <div class="card-body">
                         <div class="card-title">
-                            <h3>Preview</h3>
+                            Preview
                         </div>
-                        <div  class="form-control disabled" style="height: 71vh; overflow:auto;" id="preview"></div>
+                        <div class="form-control disabled" style="height: 68vh; overflow:auto;" id="preview"></div>
                     </div>
                 </div>
             </div>
@@ -48,13 +52,27 @@
         </div>
     </div>
     <!-- Footer -->
-    <div class="navigationbar" style="padding-right: 0;">
-            <p style="font-size: smaller; text-align: center;" > Made with <span style="color: orange;">❤</span>  by <a href="https://github.com/saswatsamal" style="color: aliceblue; text-decoration: none">Saswat Samal</a></p>
-    </div>
+    <footer class="footer">
+        <div class="credtxt">
+            <p>Made with &#10084; by Saswat Samal</p>
+        </div>
+        <div class="credsocials">
+                <a href="https://github.com/saswatsamal" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+            </div>
+    </footer>
 
 <!-- Custom Script -->
 <script src="./assets/js/script.js"></script>
 <!-- Showdown Script -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
+
+<!--Ionicons Copy Icon-->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+<script>
+
+</script>
+    
 </body>
 </html>
